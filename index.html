@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Aarpith Kamath - Orthopedic & Joint Replacement Surgeon, Bangalore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://placehold.co/1200x600/6366f1/e0e7ff?text=Modern+Clinic+Setting'); /* Placeholder image */
+            background-size: cover;
+            background-position: center;
+        }
+        .section-title {
+            font-size: 2.25rem; /* 36px */
+            font-weight: 700;
+            margin-bottom: 1.5rem; /* 24px */
+            text-align: center;
+            color: #1e3a8a; /* Dark Blue */
+        }
+        .service-card, .testimonial-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover, .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .cta-button {
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2.5rem; /* Adjust for smaller screens */
+            }
+            .hero-content p {
+                font-size: 1rem;
+            }
+            .section-title {
+                font-size: 1.875rem; /* 30px */
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-700">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex flex-wrap justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-700">Dr. Aarpith Kamath</a>
+            <button class="md:hidden text-gray-600 hover:text-blue-700 focus:outline-none" id="nav-toggle">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="hidden md:flex space-x-4 w-full md:w-auto mt-4 md:mt-0" id="nav-content">
+                <a href="#home" class="block md:inline-block px-3 py-2 text-gray-600 hover:text-blue-700 rounded-md">Home</a>
+                <a href="#about" class="block md:inline-block px-3 py-2 text-gray-600 hover:text-blue-700 rounded-md">About Dr. Kamath</a>
+                <a href="#services" class="block md:inline-block px-3 py-2 text-gray-600 hover:text-blue-700 rounded-md">Services</a>
+                <a href="#why-us" class="block md:inline-block px-3 py-2 text-gray-600 hover:text-blue-700 rounded-md">Why Choose Us</a>
+                <a href="#testimonials" class="block md:inline-block px-3 py-2 text-gray-600 hover:text-blue-700 rounded-md">Testimonials</a>
+                <a href="#contact" class="block md:inline-block px-3 py-2 text-gray-600 hover:text-blue-700 rounded-md">Contact</a>
+                <a href="#appointment" class="block md:inline-block px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 cta-button">Book Appointment</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-bg text-white py-20 md:py-32">
+        <div class="container mx-auto px-6 text-center hero-content">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Expert Orthopedic & Joint Replacement Care in Bangalore</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Dr. Aarpith Kamath offers compassionate and advanced orthopedic solutions to help you regain mobility and live pain-free. Specializing in knee, hip, and shoulder conditions.</p>
+            <a href="#appointment" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-lg cta-button">Schedule a Consultation</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Meet Dr. Aarpith Kamath</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                <div class="md:w-1/3">
+                    <img src="https://placehold.co/400x400/e0e7ff/374151?text=Dr.+Aarpith+Kamath" alt="Dr. Aarpith Kamath - Orthopedic Surgeon Bangalore" class="rounded-full shadow-xl mx-auto w-64 h-64 md:w-full md:h-auto object-cover">
+                    </div>
+                <div class="md:w-2/3 text-gray-700">
+                    <p class="text-lg mb-4">Dr. Aarpith Kamath is a dedicated and experienced Orthopedic Surgeon practicing in Bangalore, with a focus on joint replacement and arthroscopic surgeries. He holds an **MBBS and MS (Orthopedics)** and has approximately **7 years of experience** in providing high-quality orthopedic care.</p>
+                    <p class="text-lg mb-4">His primary goal is to offer patients the most effective and advanced treatment options, tailored to their individual needs. Dr. Kamath is committed to helping patients in Bangalore achieve optimal musculoskeletal health, reduce pain, and improve their quality of life through both surgical and non-surgical interventions.</p>
+                    <p class="text-lg mb-4">He specializes in a range of orthopedic conditions, including arthritis, sports injuries, trauma, and complex joint problems. Dr. Kamath is known for his patient-centric approach, taking the time to thoroughly explain conditions and treatment plans.</p>
+                    <h3 class="text-xl font-semibold text-blue-700 mt-6 mb-3">Areas of Expertise:</h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg">
+                        <li>Total Knee Replacement (TKR) & Partial Knee Replacement</li>
+                        <li>Total Hip Replacement (THR) & Hip Resurfacing</li>
+                        <li>Shoulder Replacement & Rotator Cuff Surgery</li>
+                        <li>Arthroscopic Surgery for Knee and Shoulder</li>
+                        <li>Sports Injury Management & Ligament Reconstruction (ACL, PCL)</li>
+                        <li>Complex Trauma and Fracture Care</li>
+                        <li>Spine Related Conditions (Consultation & Non-surgical Management)</li>
+                    </ul>
+                    <p class="mt-6 text-md"><em>(Note: Dr. Kamath will need to provide his precise and complete credentials, affiliations, and specific details about his practice.)</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Our Orthopedic Services in Bangalore</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Offering comprehensive care for a wide range of bone and joint conditions, right here in Bangalore. We utilize the latest techniques to ensure the best outcomes.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg service-card">
+                    <div class="text-blue-600 mb-4 text-center"><i class="fas fa-bone fa-3x"></i></div>
+                    <h3 class="text-2xl font-semibold mb-3 text-center text-blue-800">Knee Replacement</h3>
+                    <p class="text-gray-600 text-center mb-4">Advanced solutions for knee arthritis and pain, including total and partial knee replacement to restore mobility and comfort. Get expert knee care in Bangalore.</p>
+                    <a href="#contact" class="block text-center text-green-600 hover:text-green-700 font-semibold">Learn More &raquo;</a>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg service-card">
+                    <div class="text-blue-600 mb-4 text-center"><i class="fas fa-joint fa-3x"></i></div>
+                    <h3 class="text-2xl font-semibold mb-3 text-center text-blue-800">Hip Replacement</h3>
+                    <p class="text-gray-600 text-center mb-4">Comprehensive care for hip pain and arthritis, offering total hip replacement surgeries to improve your quality of life. Seek the best hip surgeon in Bangalore.</p>
+                     <a href="#contact" class="block text-center text-green-600 hover:text-green-700 font-semibold">Learn More &raquo;</a>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg service-card">
+                    <div class="text-blue-600 mb-4 text-center"><i class="fas fa-user-md fa-3x"></i></div> <h3 class="text-2xl font-semibold mb-3 text-center text-blue-800">Shoulder Care</h3>
+                    <p class="text-gray-600 text-center mb-4">Specialized treatment for shoulder injuries, rotator cuff tears, and arthritis, including shoulder replacement and arthroscopy. Find shoulder specialists in Bangalore.</p>
+                     <a href="#contact" class="block text-center text-green-600 hover:text-green-700 font-semibold">Learn More &raquo;</a>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg service-card">
+                    <div class="text-blue-600 mb-4 text-center"><i class="fas fa-microscope fa-3x"></i></div>
+                    <h3 class="text-2xl font-semibold mb-3 text-center text-blue-800">Arthroscopic Surgery</h3>
+                    <p class="text-gray-600 text-center mb-4">Minimally invasive procedures for diagnosing and repairing joint problems in the knee, shoulder, and other joints. Quicker recovery for Bangalore patients.</p>
+                     <a href="#contact" class="block text-center text-green-600 hover:text-green-700 font-semibold">Learn More &raquo;</a>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg service-card">
+                    <div class="text-blue-600 mb-4 text-center"><i class="fas fa-running fa-3x"></i></div>
+                    <h3 class="text-2xl font-semibold mb-3 text-center text-blue-800">Sports Injuries</h3>
+                    <p class="text-gray-600 text-center mb-4">Expert diagnosis and treatment for sports-related injuries, including ligament tears (ACL, PCL), meniscus injuries, and tendonitis. Get back in the game, faster.</p>
+                     <a href="#contact" class="block text-center text-green-600 hover:text-green-700 font-semibold">Learn More &raquo;</a>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg service-card">
+                    <div class="text-blue-600 mb-4 text-center"><i class="fas fa-ambulance fa-3x"></i></div>
+                    <h3 class="text-2xl font-semibold mb-3 text-center text-blue-800">Trauma & Fracture Care</h3>
+                    <p class="text-gray-600 text-center mb-4">Comprehensive management of fractures and traumatic orthopedic injuries, ensuring proper healing and functional recovery. Emergency orthopedic care in Bangalore.</p>
+                     <a href="#contact" class="block text-center text-green-600 hover:text-green-700 font-semibold">Learn More &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="why-us" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Why Choose Dr. Aarpith Kamath in Bangalore?</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+                <div class="p-6 rounded-lg ">
+                    <div class="text-green-500 mb-4"><i class="fas fa-user-doctor fa-3x"></i></div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Experienced Specialist</h3>
+                    <p class="text-gray-600">With approx. 7 years of dedicated orthopedic experience, Dr. Kamath brings a wealth of knowledge to treat complex joint conditions in Bangalore.</p>
+                </div>
+                <div class="p-6 rounded-lg ">
+                    <div class="text-green-500 mb-4"><i class="fas fa-hospital-user fa-3x"></i></div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Patient-Centric Care</h3>
+                    <p class="text-gray-600">We prioritize your comfort and understanding, offering personalized treatment plans tailored to your specific needs and lifestyle.</p>
+                </div>
+                <div class="p-6 rounded-lg ">
+                    <div class="text-green-500 mb-4"><i class="fas fa-microchip fa-3x"></i></div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Advanced Techniques</h3>
+                    <p class="text-gray-600">Utilizing modern surgical techniques and technology for better outcomes, faster recovery, and minimally invasive options where possible.</p>
+                </div>
+                <div class="p-6 rounded-lg ">
+                    <div class="text-green-500 mb-4"><i class="fas fa-map-marked-alt fa-3x"></i></div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Accessible Bangalore Location(s)</h3>
+                    <p class="text-gray-600">Conveniently located to serve patients across Bangalore. (Dr. Kamath to specify clinic locations, e.g., "Manipal Hospital," "United Hospital," or private clinic).</p>
+                </div>
+                 <div class="p-6 rounded-lg ">
+                    <div class="text-green-500 mb-4"><i class="fas fa-comments fa-3x"></i></div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Clear Communication</h3>
+                    <p class="text-gray-600">Dr. Kamath believes in educating patients about their condition and treatment options, ensuring you make informed decisions about your health.</p>
+                </div>
+                 <div class="p-6 rounded-lg ">
+                    <div class="text-green-500 mb-4"><i class="fas fa-chart-line fa-3x"></i></div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Focus on Recovery</h3>
+                    <p class="text-gray-600">Comprehensive post-operative care and rehabilitation guidance to help you get back to your active life as quickly and safely as possible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-16 md:py-24 bg-blue-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">What Our Bangalore Patients Say</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Hearing from those we've helped is the best testament to our care. (Actual patient testimonials specific to Dr. Aarpith Kamath should be added here with consent).</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg testimonial-card">
+                    <p class="text-gray-600 mb-4 italic">"Dr. Kamath was fantastic. My knee replacement surgery went smoothly, and the recovery was quicker than I expected. I'm now pain-free and back to my morning walks in Lalbagh! Highly recommend him for anyone in Bangalore."</p>
+                    <p class="font-semibold text-blue-700">- R. Sharma, Jayanagar, Bangalore</p>
+                    <div class="text-yellow-400 mt-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg testimonial-card">
+                    <p class="text-gray-600 mb-4 italic">"After my sports injury, I consulted Dr. Aarpith. He explained the arthroscopic procedure clearly and patiently. The staff were caring, and I'm grateful for the excellent treatment I received right here in Bangalore."</p>
+                    <p class="font-semibold text-blue-700">- Priya S., Koramangala, Bangalore</p>
+                     <div class="text-yellow-400 mt-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg testimonial-card">
+                    <p class="text-gray-600 mb-4 italic">"Finding a good hip replacement surgeon in Bangalore was my priority. Dr. Kamath exceeded my expectations with his professionalism and skill. My mobility has improved significantly."</p>
+                    <p class="font-semibold text-blue-700">- Anand K., Whitefield, Bangalore</p>
+                     <div class="text-yellow-400 mt-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+             <p class="text-center mt-8 text-gray-600"><em>Note: These are sample testimonials. Dr. Kamath should replace these with genuine patient feedback.</em></p>
+        </div>
+    </section>
+
+    <section id="appointment" class="py-16 md:py-24 bg-green-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title !text-green-700">Book Your Appointment Today</h2>
+            <p class="text-center text-lg text-gray-700 mb-10 max-w-2xl mx-auto">Take the first step towards a pain-free life. Fill out the form below to request an appointment, or call us directly. Our team in Bangalore will get back to you promptly.</p>
+            
+            <div class="max-w-2xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-2xl">
+                <form id="appointmentForm">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-semibold mb-2">Full Name <span class="text-red-500">*</span></label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" required placeholder="Your Full Name">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-semibold mb-2">Phone Number <span class="text-red-500">*</span></label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" required placeholder="e.g., 98XXX XXXXX (Bangalore)">
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-gray-700 font-semibold mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="your.email@example.com">
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="preferred_date" class="block text-gray-700 font-semibold mb-2">Preferred Date</label>
+                            <input type="date" id="preferred_date" name="preferred_date" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="preferred_time" class="block text-gray-700 font-semibold mb-2">Preferred Time</label>
+                            <select id="preferred_time" name="preferred_time" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                <option value="">Select a time slot</option>
+                                <option value="morning">Morning (9 AM - 12 PM)</option>
+                                <option value="afternoon">Afternoon (2 PM - 5 PM)</option>
+                                <option value="evening">Evening (6 PM - 8 PM)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="reason" class="block text-gray-700 font-semibold mb-2">Reason for Visit / Brief Description <span class="text-red-500">*</span></label>
+                        <textarea id="reason" name="reason" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" required placeholder="e.g., Knee pain, Hip consultation, Follow-up"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-10 rounded-lg text-lg shadow-md cta-button">Request Appointment</button>
+                    </div>
+                </form>
+                <div id="form-message" class="mt-6 text-center"></div>
+                <p class="text-center mt-6 text-sm text-gray-600">Alternatively, you can integrate a direct scheduling tool like Practo, Calendly, or Zoho Bookings here for real-time appointment confirmation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-800">Clinic Address(es) in Bangalore:</h3>
+                    <p class="text-lg mb-2"><i class="fas fa-map-marker-alt mr-2 text-blue-600"></i><strong>Primary Clinic (Example):</strong></p>
+                    <p class="text-lg pl-6 mb-4">123, Ortho Care Building, Near MG Road Metro, Bangalore, Karnataka - 560001 <br>(Dr. Kamath to provide actual address)</p>
+                    
+                    <p class="text-lg mb-2"><i class="fas fa-map-marker-alt mr-2 text-blue-600"></i><strong>Visiting Consultant (Example):</strong></p>
+                    <p class="text-lg pl-6 mb-4">United Hospital / Manipal Hospital (Specify Branch), Bangalore <br>(Dr. Kamath to confirm affiliations and addresses)</p>
+
+                    <h3 class="text-2xl font-semibold mt-8 mb-4 text-blue-800">Contact Information:</h3>
+                    <p class="text-lg mb-2"><i class="fas fa-phone-alt mr-2 text-blue-600"></i><strong>Phone:</strong> <a href="tel:+919876543210" class="text-blue-600 hover:underline">+91-98765-43210</a> (Dr. Kamath to provide actual number)</p>
+                    <p class="text-lg mb-2"><i class="fas fa-envelope mr-2 text-blue-600"></i><strong>Email:</strong> <a href="mailto:info@draarpithkamath.com" class="text-blue-600 hover:underline">info@draarpithkamath.com</a> (Dr. Kamath to provide actual email)</p>
+                    <p class="text-lg mb-2"><i class="fas fa-clock mr-2 text-blue-600"></i><strong>Clinic Hours (Example):</strong></p>
+                    <p class="text-lg pl-6">Monday - Friday: 9:00 AM - 7:00 PM</p>
+                    <p class="text-lg pl-6 mb-4">Saturday: 9:00 AM - 2:00 PM</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-800">Clinic Location Map:</h3>
+                    <div class="bg-gray-200 rounded-lg shadow-md h-80 flex items-center justify-center text-gray-500">
+                        <p>Google Map Placeholder - Embed map for clinic location here.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-800 text-blue-100 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-semibold text-lg mb-3">Dr. Aarpith Kamath</h4>
+                    <p class="text-sm">Orthopedic & Joint Replacement Surgeon</p>
+                    <p class="text-sm">Bangalore, India</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-3">Quick Links</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#about" class="hover:text-white">About Us</a></li>
+                        <li><a href="#services" class="hover:text-white">Services</a></li>
+                        <li><a href="#appointment" class="hover:text-white">Book Appointment</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-3">Follow Us (Optional)</h4>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="hover:text-white" aria-label="Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#" class="hover:text-white" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a href="#" class="hover:text-white" aria-label="Practo"><i class="fas fa-notes-medical fa-lg"></i></a> </div>
+                </div>
+            </div>
+            <hr class="border-blue-700 my-6">
+            <p class="text-sm">&copy; <span id="currentYear"></span> Dr. Aarpith Kamath. All Rights Reserved.</p>
+            <p class="text-xs mt-2">Website designed to provide information and facilitate appointments. Medical advice should be obtained directly from Dr. Kamath during a consultation.</p>
+            <p class="text-xs mt-1">Developed by [Your Name/Company if applicable, or remove]</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navContent = document.getElementById('nav-content');
+        navToggle.addEventListener('click', function() {
+            navContent.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // If mobile nav is open, close it after click
+                    if (!navContent.classList.contains('hidden')) {
+                        navContent.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Appointment Form Submission (Basic Example)
+        const appointmentForm = document.getElementById('appointmentForm');
+        const formMessage = document.getElementById('form-message');
+
+        if (appointmentForm) {
+            appointmentForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Basic validation (can be more extensive)
+                const name = document.getElementById('name').value;
+                const phone = document.getElementById('phone').value;
+                const reason = document.getElementById('reason').value;
+
+                if (!name || !phone || !reason) {
+                    formMessage.innerHTML = '<p class="text-red-500">Please fill in all required fields.</p>';
+                    return;
+                }
+
+                // In a real application, you would send this data to a server
+                // For now, just show a success message
+                formMessage.innerHTML = '<p class="text-green-600">Thank you! Your appointment request has been submitted. Our team will contact you shortly to confirm.</p>';
+                appointmentForm.reset();
+
+                // Simulate clearing message after some time
+                setTimeout(() => {
+                    formMessage.innerHTML = '';
+                }, 5000);
+            });
+        }
+    </script>
+
+</body>
+</html>
